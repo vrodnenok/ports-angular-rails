@@ -3,7 +3,7 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 portsapp = angular.module('portsapp', [
-  'templates',
+  # 'templates',
   'ngRoute',
   'ngResource',
   'ngAnimate',
@@ -12,7 +12,7 @@ portsapp = angular.module('portsapp', [
   'controllers'
 ]).config ($routeProvider) ->
   $routeProvider.when('/',
-    templateUrl: 'main.html'
+    templateUrl: 'templates/main.html'
     controller: 'MainCtrl').when('/about',
     templateUrl: 'about.html'
     controller: 'AboutCtrl').otherwise redirectTo: '/'
