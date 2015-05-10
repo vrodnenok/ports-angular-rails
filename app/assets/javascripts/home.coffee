@@ -12,7 +12,7 @@ portsapp = angular.module('portsapp', [
   'controllers'
 ]).config ($routeProvider) ->
   $routeProvider.when('/',
-    templateUrl:'main.html'
+    templateUrl: 'main.html'
     controller: 'MainCtrl').when('/about',
     templateUrl: 'about.html'
     controller: 'AboutCtrl').otherwise redirectTo: '/'

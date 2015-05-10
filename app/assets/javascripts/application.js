@@ -21,5 +21,5 @@
 //= require angular-sanitize/angular-sanitize
 //= require angular-rails-templates
 //= require ng-token-auth
-//= require_directory ../templates
+//= require_tree ./templates
 //= require_tree .
