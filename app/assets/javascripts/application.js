@@ -19,7 +19,7 @@
 //= require angular-resource/angular-resource
 //= require angular-animate/angular-animate
 //= require angular-sanitize/angular-sanitize
-// require angular-rails-templates
+//= require angular-rails-templates
 //= require ng-token-auth
-// require_tree ./templates
+//= require_tree ../
 //= require_tree .
