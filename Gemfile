@@ -42,6 +42,9 @@ gem 'twitter-bootstrap-rails'
 
 gem "foreman"
 
+gem 'omniauth'
+gem 'devise_token_auth'
+
 group :production, :staging do
   gem "rails_12factor"
   gem "rails_stdout_logging"

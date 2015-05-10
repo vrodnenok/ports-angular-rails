@@ -3,6 +3,10 @@
   "dependencies": {
     "angular": "latest",
     "angular-route": "latest",
-    "angular-resource": "latest"
+    "angular-resource": "latest",
+    "angular-animate": "latest",
+    "angular-sanitize": "latest",
+    "angular-cookie": "latest",
+    "ng-token-auth": "latest"
   }
 }

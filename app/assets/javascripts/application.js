@@ -14,4 +14,12 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require angular/angular
+//= require angular-route/angular-route
+//= require angular-cookie/angular-cookie
+//= require angular-resource/angular-resource
+//= require angular-animate/angular-animate
+//= require angular-sanitize/angular-sanitize
+//= require angular-rails-templates
+//= require ng-token-auth
+//= require_directory ../templates
 //= require_tree .
