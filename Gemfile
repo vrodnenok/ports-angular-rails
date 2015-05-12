@@ -6,7 +6,8 @@ gem 'devise'
 gem 'jquery-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails'
+gem 'rails-api'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -28,8 +29,8 @@ gem 'bower-rails'
 gem 'angular-rails-templates'
 
 gem 'therubyracer'
-gem 'less-rails'
-gem 'twitter-bootstrap-rails'
+gem 'sprockets-rails'
+gem 'bootstrap-sass'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -63,9 +64,10 @@ group :development, :test do
   gem 'spring'
   gem 'cucumber'
   gem "rspec-rails", "~> 2.0"
-  gem "factory_girl_rails", "~> 4.0"
+  gem "factory_girl_rails"
   gem "capybara"
   gem "database_cleaner"
   gem "selenium-webdriver"
+  gem "faker"
 end
 

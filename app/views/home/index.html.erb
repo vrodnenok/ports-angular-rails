@@ -1,6 +1,7 @@
-<div ng-app="portsapp">
-  <div class="view-container">
-    <div ng-view class="view-frame animate-view">
-    </div>
-  </div>
-</div>
+          <li ng-show="!user.id"><a class = 'btn btn-success glyphicon glyphicon-ok' ng-href="/signin"> Sign In</a></li>
+          <li ng-show="!user.id"><a class = 'btn btn-success glyphicon glyphicon-ok' ng-href="/signup"> Sign Up</a></li> 
+          <li ng-show="user.id"><a type = 'button' ng-click='signOut()'>Sign out</a></li>
+
+          <div ng-view class="view-frame animate-view"> 
+   
+          </div>
